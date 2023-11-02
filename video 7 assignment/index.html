@@ -1,0 +1,66 @@
+<!-- Quick Quiz:
+    Without using br tag, write a vertically aligned form asking for name, city and pincode of a user.
+    Everyone must comment -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS</title>
+    <h1> Tata Customer services inc.</h1>
+</head>
+
+<body>
+    <div>
+        <label for="username">Enter your name </label>
+        <input type="text" id="username" name="username" placeholder="Enter your name here..." autofocus>
+    </div>
+    <div>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male">
+    </div>
+    <div>
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female">
+    </div>
+    <div>
+        <label for="City">City</label>
+        <select name="City" id="City">
+            <option value="select">select</option>
+            <option value="Aligarh">Aligarh</option>
+            <option value="Agra">Agra</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+    </div>
+    <div>
+        <label for="pincode">pincode</label>
+        <input type="text" name="pincode" id="pincode" placeholder="enter your pincode here....">
+    </div>
+    <div>
+        <input type="checkbox" name="subscribe id=" newsletter">
+        <label for="checkbox">subscibe to newsletter</label>
+    </div>
+    <div>
+        <label for="comment"></label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here.."></textarea>
+    </div>
+    <div>
+        <label for="Fruits">My Favorite Fruits</label>
+        <select name="Fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Grapes">Grapes</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+    <link rel="stylesheet" href="style.css">
+</body>
+<script src="script.js"></script>
+
+</html>
